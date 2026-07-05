@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{ 
+    font-family: Arial,sans-serif; 
+    line-height: 1.4;
+    background-color:#020617;    
+}
+header{
+    position: relative;
+    background-color: #0f172a;
+    padding:60px 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.Myself{
+    color:#ffd146;
+ 
+}
+.name{
+    color: #ffd146;
+   
+}
+nav{
+    background: #1e293b;
+    border-radius: 25px;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav a{
+    display: inline-block;
+    color: #6a7584;
+    background-color: #171e31;
+    border-radius: 25px; 
+    height: 25px;
+    width: 100px;
+    margin: 10px;   
+    text-align: center;
+    text-decoration:none;
+
+}
+nav a:hover{
+    color:rgb(0, 0, 0);
+    background-color:#ffd146;
+    border-radius: 25px;
+}
+
+section{
+	display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: aliceblue;
+    background-color: #1e293b;
+    border: 1px,solid,#64748b;
+    border-radius: 10px;
+}
+section img{
+        width: 200px;
+        margin: 15px,0px;
+        object-fit: cover;
+        padding: 10px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #ffd146;
+        border-radius: 50%;
+}  
+.img-box-data{
+    display: flexbox;
+} 
+.Cote{
+    color: rgb(233, 55, 55);
+}
+table{
+    width: 100%;
+	border-collapse:collapse;
+    margin-top: 9px;
+    border-color: #64748b;
+}
+table,th,td{
+	border:2px solid black;
+}	
+th,td{
+	text-align:center;
+	padding:5px;
+}
+form{
+	display: flex;
+	flex-direction:column;
+    gap: 7px;
+}
+.msg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Name{
+    background-color: #0f172a;
+    padding: 5px;
+    color: #64748b;
+    border: 0px;
+    border-radius: 10px ;
+}
+.Email{
+    background-color: #0f172a;
+    padding: 5px;
+    color: #64748b;
+    border: 0px;
+    border-radius: 10px ;
+}
+.dropdown{
+    display: inline-block;
+    padding: 5px;
+    background-color: #0f172a;
+    border-color: #64748b;
+    color: #6a7584;
+}
+.checkbox{
+    padding: 5px;
+    color: #64748b;
+}
+.date{
+    background-color: #0f172a;
+    color: #6a7584;
+    margin: 5px ;
+}
+.Massageing{
+    background-color: #0f172a;
+    color: #6a7584;
+    margin: 5px ;
+}
+button{
+    margin-left: 60px;
+	background-color:#171e31;
+	padding:0px 32px;
+    border-width: 1px;
+	width: 130px;
+	height:30px;
+    color: #64748b;
+	font-size:15px;
+	font-weight:500px;
+	border-radius:50px;
+    cursor: pointer;
+}
+button:hover{
+	background-color:#ffd146;
+	color: #020617;
+    border-width:2px;
+	border-color:yellow
+}
+footer{
+	padding:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color: #1e293b;
+	color:#64748b;
+	border-radius:10px;
+	font-size:20px;
+	font-style:bold;
+	text-align:center;
+}
+
