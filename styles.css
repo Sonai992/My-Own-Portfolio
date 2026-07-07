@@ -52,34 +52,38 @@ nav a:hover{
     background-color:#ffd146;
     border-radius: 25px;
 }
-
-section{
-	display:inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 400px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 30px;
-    color: aliceblue;
-    background-color: #1e293b;
-    border: 1px,solid,#64748b;
-    border-radius: 10px;
+.Container{
+    max-width: 800px;
+    margin: 0 auto;
+    width: 90%;
 }
-section img{
-        width: 200px;
-        margin: 15px,0px;
-        object-fit: cover;
-        padding: 10px;
-        border-width: 2px;
-        border-style: solid;
-        border-color: #ffd146;
-        border-radius: 50%;
-}  
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e293b; /* রেফারেন্সের মতো গাঢ় রঙ */
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px; /* কর্নার রাউন্ড করার জন্য */
+    box-shadow: 0 4px 15px #ffd146;
+    color: white;
+}
+section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #ffd146;
+    margin-bottom: 20px;
+    object-fit: cover;
+}    
+#about {
+    text-align: center;
+}
 .img-box-data{
     display: flexbox;
-} 
+    
+}
 .Cote{
     color: rgb(233, 55, 55);
 }
@@ -103,24 +107,17 @@ form{
 }
 .msg{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+  
 }
-.Name{
+.Name, .Email{
     background-color: #0f172a;
     padding: 5px;
     color: #64748b;
     border: 0px;
-    border-radius: 10px ;
+    border-radius: 10px;
 }
-.Email{
-    background-color: #0f172a;
-    padding: 5px;
-    color: #64748b;
-    border: 0px;
-    border-radius: 10px ;
-}
+
 .dropdown{
     display: inline-block;
     padding: 5px;
@@ -135,42 +132,50 @@ form{
 .date{
     background-color: #0f172a;
     color: #6a7584;
-    margin: 5px ;
+    margin: 5px;   
 }
 .Massageing{
     background-color: #0f172a;
     color: #6a7584;
-    margin: 5px ;
+    margin: 5px;
 }
 button{
     margin-left: 60px;
-	background-color:#171e31;
+	background-color:#ffd146;
 	padding:0px 32px;
     border-width: 1px;
 	width: 130px;
 	height:30px;
-    color: #64748b;
+    color: #000;
 	font-size:15px;
 	font-weight:500px;
 	border-radius:50px;
     cursor: pointer;
 }
+textarea{
+    width: auto;
+}
 button:hover{
-	background-color:#ffd146;
+	background-color:#ffd146ee;
 	color: #020617;
     border-width:2px;
-	border-color:yellow
+	border-color:#ffd146;
 }
-footer{
-	padding:20px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	background-color: #1e293b;
-	color:#64748b;
-	border-radius:10px;
-	font-size:20px;
-	font-style:bold;
-	text-align:center;
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1e293b; 
+    color: #8b949e;            
+    margin-top: 50px;
 }
-
+footer {
+    text-align: center;
+    padding: 30px 0; 
+    background-color: #0f172a; 
+    color: #5a667c; 
+    font-size: 14px;
+}
+footer p {
+    margin: 0;
+    opacity: 0.8;
+}
